@@ -1,28 +1,28 @@
 # Technical Report - Software
 
-## 개요
+## Overview
 
-소프트웨어 모듈의 기술 보고서입니다.
+Technical report for the software module.
 
-## 목차
+## Table of Contents
 
-1. [소프트웨어 아키텍처](#소프트웨어-아키텍처)
-2. [통신 프로토콜](#통신-프로토콜)
-3. [제어 알고리즘](#제어-알고리즘)
-4. [테스트 결과](#테스트-결과)
+1. [Software Architecture](#software-architecture)
+2. [Communication Protocol](#communication-protocol)
+3. [Control Algorithms](#control-algorithms)
+4. [Test Results](#test-results)
 
-## 소프트웨어 아키텍처
+## Software Architecture
 
-(작성 예정)
+(To be written)
 
-## 통신 프로토콜
+## Communication Protocol
 
-(작성 예정)
+(To be written)
 
-## 제어 알고리즘
+## Control Algorithms
 
-(작성 예정)
+(To be written)
 
-## 테스트 결과
+## Test Results
 
-(작성 예정)
+(To be written)

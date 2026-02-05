@@ -1,55 +1,55 @@
 # Low-Cost UMI Gripper
 
-저렴한 센서와 하드웨어를 활용한 UMI(Universal Manipulation Interface) Gripper 프로젝트입니다.
+A UMI (Universal Manipulation Interface) Gripper project utilizing low-cost sensors and hardware.
 
-## 프로젝트 개요
+## Project Overview
 
-기존 UMI Gripper 시스템은 고가의 센서와 하드웨어를 사용하여 접근성이 낮았습니다. 본 프로젝트는 저렴한 대체 부품들을 활용하여 동일한 기능을 구현하는 것을 목표로 합니다.
+The original UMI Gripper system uses expensive sensors and hardware, making it less accessible. This project aims to achieve the same functionality using affordable alternative components.
 
-## 프로젝트 구조
+## Project Structure
 
 ```
 low-cost-umi-gripper/
-├── docs/                        # 문서 및 기술 보고서
+├── docs/                        # Documentation and technical reports
 │   └── technical_report/
-├── hardware/                    # 하드웨어 설계
-├── sensors/                     # 센서 모듈
+├── hardware/                    # Hardware design
+├── sensors/                     # Sensor modules
 ├── actuated-umi-gripper/        # Actuated UMI Gripper
-└── software/                    # 소프트웨어 및 제어 코드
+└── software/                    # Software and control code
 ```
 
-## 주요 구성요소
+## Main Components
 
 ### [Hardware](./hardware/)
-저렴한 대체 하드웨어 부품 설계 및 조립 가이드
+Low-cost alternative hardware component designs and assembly guides
 
 ### [Sensors](./sensors/)
-기존 고가 센서를 대체하는 저렴한 센서 솔루션
+Affordable sensor solutions replacing expensive original sensors
 
 ### [Actuated UMI Gripper](./actuated-umi-gripper/)
-Actuated UMI Gripper 프로젝트 기반 그리퍼 시스템
+Gripper system based on the Actuated UMI Gripper project
 
 ### [Software](./software/)
-제어 소프트웨어 및 인터페이스
+Control software and interfaces
 
-## 기술 보고서
+## Technical Reports
 
-각 모듈별 상세 기술 보고서는 해당 디렉토리의 `technical_report/` 폴더에서 확인할 수 있습니다.
+Detailed technical reports for each module can be found in the `technical_report/` folder of each directory.
 
-- [전체 프로젝트 기술 보고서](./docs/technical_report/)
-- [하드웨어 기술 보고서](./hardware/technical_report/)
-- [센서 기술 보고서](./sensors/technical_report/)
-- [Actuated UMI Gripper 기술 보고서](./actuated-umi-gripper/technical_report/)
-- [소프트웨어 기술 보고서](./software/technical_report/)
+- [Overall Project Technical Report](./docs/technical_report/)
+- [Hardware Technical Report](./hardware/technical_report/)
+- [Sensors Technical Report](./sensors/technical_report/)
+- [Actuated UMI Gripper Technical Report](./actuated-umi-gripper/technical_report/)
+- [Software Technical Report](./software/technical_report/)
 
-## 시작하기
+## Getting Started
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 라이선스
+## License
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 기여하기
+## Contributing
 
-프로젝트에 기여하고 싶으시다면 Pull Request를 보내주세요.
+If you would like to contribute to this project, please submit a Pull Request.

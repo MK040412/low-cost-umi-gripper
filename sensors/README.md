@@ -1,27 +1,27 @@
 # Sensors
 
-저렴한 센서 솔루션
+Low-cost sensor solutions
 
-## 개요
+## Overview
 
-기존 고가의 센서를 대체하는 저렴한 센서 솔루션을 제공합니다.
+This module provides affordable sensor solutions that replace expensive original sensors.
 
-## 센서 목록
+## Sensor List
 
-(추후 업데이트 예정)
+(To be updated)
 
-| 센서 종류 | 기존 센서 | 대체 센서 | 가격 |
-|----------|----------|----------|-----|
+| Sensor Type | Original Sensor | Replacement Sensor | Price |
+|-------------|----------------|-------------------|-------|
 | - | - | - | - |
 
-## 센서 인터페이스
+## Sensor Interface
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 캘리브레이션
+## Calibration
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 기술 보고서
+## Technical Report
 
-상세 기술 보고서는 [technical_report/](./technical_report/)에서 확인할 수 있습니다.
+Detailed technical report can be found in [technical_report/](./technical_report/).

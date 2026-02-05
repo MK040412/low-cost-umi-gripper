@@ -1,28 +1,28 @@
 # Technical Report - Hardware
 
-## 개요
+## Overview
 
-하드웨어 모듈의 기술 보고서입니다.
+Technical report for the hardware module.
 
-## 목차
+## Table of Contents
 
-1. [설계 요구사항](#설계-요구사항)
-2. [부품 선정 기준](#부품-선정-기준)
-3. [대체 부품 분석](#대체-부품-분석)
-4. [테스트 결과](#테스트-결과)
+1. [Design Requirements](#design-requirements)
+2. [Component Selection Criteria](#component-selection-criteria)
+3. [Replacement Component Analysis](#replacement-component-analysis)
+4. [Test Results](#test-results)
 
-## 설계 요구사항
+## Design Requirements
 
-(작성 예정)
+(To be written)
 
-## 부품 선정 기준
+## Component Selection Criteria
 
-(작성 예정)
+(To be written)
 
-## 대체 부품 분석
+## Replacement Component Analysis
 
-(작성 예정)
+(To be written)
 
-## 테스트 결과
+## Test Results
 
-(작성 예정)
+(To be written)

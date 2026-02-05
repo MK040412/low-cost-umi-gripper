@@ -1,27 +1,27 @@
 # Hardware
 
-저렴한 대체 하드웨어 부품 설계 및 조립 가이드
+Low-cost alternative hardware component designs and assembly guides
 
-## 개요
+## Overview
 
-기존 고가의 하드웨어를 대체하는 저렴한 부품들에 대한 설명과 조립 방법을 제공합니다.
+This module provides descriptions and assembly instructions for affordable components that replace expensive original hardware.
 
-## 부품 목록
+## Parts List
 
-(추후 업데이트 예정)
+(To be updated)
 
-| 부품명 | 기존 부품 | 대체 부품 | 가격 |
-|-------|----------|----------|-----|
+| Part Name | Original Part | Replacement Part | Price |
+|-----------|--------------|------------------|-------|
 | - | - | - | - |
 
-## 조립 가이드
+## Assembly Guide
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 3D 프린팅 파일
+## 3D Printing Files
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 기술 보고서
+## Technical Report
 
-상세 기술 보고서는 [technical_report/](./technical_report/)에서 확인할 수 있습니다.
+Detailed technical report can be found in [technical_report/](./technical_report/).

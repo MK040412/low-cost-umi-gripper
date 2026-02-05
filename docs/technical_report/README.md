@@ -1,38 +1,38 @@
 # Technical Report - Low-Cost UMI Gripper
 
-## 개요
+## Overview
 
-본 문서는 Low-Cost UMI Gripper 프로젝트의 전체 기술 보고서입니다.
+This document is the comprehensive technical report for the Low-Cost UMI Gripper project.
 
-## 목차
+## Table of Contents
 
-1. [프로젝트 배경](#프로젝트-배경)
-2. [시스템 아키텍처](#시스템-아키텍처)
-3. [비용 분석](#비용-분석)
-4. [성능 비교](#성능-비교)
-5. [결론](#결론)
+1. [Project Background](#project-background)
+2. [System Architecture](#system-architecture)
+3. [Cost Analysis](#cost-analysis)
+4. [Performance Comparison](#performance-comparison)
+5. [Conclusion](#conclusion)
 
-## 프로젝트 배경
+## Project Background
 
-(작성 예정)
+(To be written)
 
-## 시스템 아키텍처
+## System Architecture
 
-(작성 예정)
+(To be written)
 
-## 비용 분석
+## Cost Analysis
 
-| 구성요소 | 기존 비용 | 대체 비용 | 절감률 |
-|---------|----------|----------|-------|
-| 센서 | - | - | - |
-| 하드웨어 | - | - | - |
-| 그리퍼 | - | - | - |
-| **총계** | - | - | - |
+| Component | Original Cost | Replacement Cost | Savings |
+|-----------|--------------|------------------|---------|
+| Sensors | - | - | - |
+| Hardware | - | - | - |
+| Gripper | - | - | - |
+| **Total** | - | - | - |
 
-## 성능 비교
+## Performance Comparison
 
-(작성 예정)
+(To be written)
 
-## 결론
+## Conclusion
 
-(작성 예정)
+(To be written)

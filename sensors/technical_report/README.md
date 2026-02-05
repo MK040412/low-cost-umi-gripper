@@ -1,32 +1,32 @@
 # Technical Report - Sensors
 
-## 개요
+## Overview
 
-센서 모듈의 기술 보고서입니다.
+Technical report for the sensors module.
 
-## 목차
+## Table of Contents
 
-1. [센서 요구사항](#센서-요구사항)
-2. [대체 센서 분석](#대체-센서-분석)
-3. [성능 비교](#성능-비교)
-4. [통합 테스트](#통합-테스트)
+1. [Sensor Requirements](#sensor-requirements)
+2. [Replacement Sensor Analysis](#replacement-sensor-analysis)
+3. [Performance Comparison](#performance-comparison)
+4. [Integration Testing](#integration-testing)
 
-## 센서 요구사항
+## Sensor Requirements
 
-(작성 예정)
+(To be written)
 
-## 대체 센서 분석
+## Replacement Sensor Analysis
 
-(작성 예정)
+(To be written)
 
-## 성능 비교
+## Performance Comparison
 
-| 항목 | 기존 센서 | 대체 센서 |
-|-----|----------|----------|
-| 정확도 | - | - |
-| 응답 속도 | - | - |
-| 가격 | - | - |
+| Metric | Original Sensor | Replacement Sensor |
+|--------|----------------|-------------------|
+| Accuracy | - | - |
+| Response Time | - | - |
+| Price | - | - |
 
-## 통합 테스트
+## Integration Testing
 
-(작성 예정)
+(To be written)

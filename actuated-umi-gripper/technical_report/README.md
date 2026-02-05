@@ -1,34 +1,34 @@
 # Technical Report - Actuated UMI Gripper
 
-## 개요
+## Overview
 
-Actuated UMI Gripper 모듈의 기술 보고서입니다.
+Technical report for the Actuated UMI Gripper module.
 
-## 목차
+## Table of Contents
 
-1. [설계 개요](#설계-개요)
-2. [구동 메커니즘](#구동-메커니즘)
-3. [제어 시스템](#제어-시스템)
-4. [성능 평가](#성능-평가)
+1. [Design Overview](#design-overview)
+2. [Actuation Mechanism](#actuation-mechanism)
+3. [Control System](#control-system)
+4. [Performance Evaluation](#performance-evaluation)
 
-## 설계 개요
+## Design Overview
 
-(작성 예정)
+(To be written)
 
-## 구동 메커니즘
+## Actuation Mechanism
 
-(작성 예정)
+(To be written)
 
-## 제어 시스템
+## Control System
 
-(작성 예정)
+(To be written)
 
-## 성능 평가
+## Performance Evaluation
 
-| 항목 | 사양 |
-|-----|-----|
-| 그립 힘 | - |
-| 개폐 속도 | - |
-| 반복 정밀도 | - |
+| Metric | Specification |
+|--------|--------------|
+| Grip Force | - |
+| Open/Close Speed | - |
+| Repeatability | - |
 
-(작성 예정)
+(To be written)

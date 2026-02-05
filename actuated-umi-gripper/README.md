@@ -1,33 +1,33 @@
 # Actuated UMI Gripper
 
-Actuated UMI Gripper 프로젝트 기반 그리퍼 시스템
+Gripper system based on the Actuated UMI Gripper project
 
-## 개요
+## Overview
 
-본 모듈은 [Actuated UMI Gripper](https://github.com/ubi-coro/actuated_umi_gripper) 프로젝트를 기반으로 합니다.
+This module is based on the [Actuated UMI Gripper](https://github.com/ubi-coro/actuated_umi_gripper) project.
 
-## 특징
+## Features
 
-- 저렴한 구동 시스템
-- 간단한 조립
-- 오픈소스 설계
+- Low-cost actuation system
+- Simple assembly
+- Open-source design
 
-## 구성요소
+## Components
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 조립 가이드
+## Assembly Guide
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 사용 방법
+## Usage
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 참고 자료
+## References
 
 - [Actuated UMI Gripper Original Repository](https://github.com/ubi-coro/actuated_umi_gripper)
 
-## 기술 보고서
+## Technical Report
 
-상세 기술 보고서는 [technical_report/](./technical_report/)에서 확인할 수 있습니다.
+Detailed technical report can be found in [technical_report/](./technical_report/).

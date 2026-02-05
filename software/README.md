@@ -1,29 +1,29 @@
 # Software
 
-제어 소프트웨어 및 인터페이스
+Control software and interfaces
 
-## 개요
+## Overview
 
-Low-Cost UMI Gripper를 제어하기 위한 소프트웨어 모듈입니다.
+Software module for controlling the Low-Cost UMI Gripper.
 
-## 요구사항
+## Requirements
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 설치
+## Installation
 
 ```bash
-# 추후 업데이트 예정
+# To be updated
 ```
 
-## 사용 방법
+## Usage
 
-(추후 업데이트 예정)
+(To be updated)
 
-## API 문서
+## API Documentation
 
-(추후 업데이트 예정)
+(To be updated)
 
-## 기술 보고서
+## Technical Report
 
-상세 기술 보고서는 [technical_report/](./technical_report/)에서 확인할 수 있습니다.
+Detailed technical report can be found in [technical_report/](./technical_report/).
