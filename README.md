@@ -14,7 +14,6 @@ low-cost-umi-gripper/
 │   └── technical_report/
 ├── hardware/                    # Hardware design
 ├── sensors/                     # Sensor modules
-├── actuated-umi-gripper/        # Actuated UMI Gripper
 └── software/                    # Software and control code
 ```
 
@@ -26,9 +25,6 @@ Low-cost alternative hardware component designs and assembly guides
 ### [Sensors](./sensors/)
 Affordable sensor solutions replacing expensive original sensors
 
-### [Actuated UMI Gripper](./actuated-umi-gripper/)
-Gripper system based on the Actuated UMI Gripper project
-
 ### [Software](./software/)
 Control software and interfaces
 
@@ -39,7 +35,6 @@ Detailed technical reports for each module can be found in the `technical_report
 - [Overall Project Technical Report](./docs/technical_report/)
 - [Hardware Technical Report](./hardware/technical_report/)
 - [Sensors Technical Report](./sensors/technical_report/)
-- [Actuated UMI Gripper Technical Report](./actuated-umi-gripper/technical_report/)
 - [Software Technical Report](./software/technical_report/)
 
 ## Getting Started
