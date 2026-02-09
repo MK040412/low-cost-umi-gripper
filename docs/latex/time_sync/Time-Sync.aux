@@ -1,0 +1,148 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand \oddpage@label [2]{}
+\ifx\qr@savematrix\@undefined\def\qr@savematrix{\begingroup\let\do\@makeother\dospecials\catcode`\{=1\catcode`\}=2\relax \qr@savematrix@int}\def\qr@savematrix@int#1#2#3#4{\endgroup}\fi
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces WiFi UDP vs NRF24L01+ comparison for peer-to-peer synchronization.\relax }}{3}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:wifi-vs-nrf}{{1}{3}{WiFi UDP vs NRF24L01+ comparison for peer-to-peer synchronization.\relax }{table.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}NRF24L01+ Hardware Overview}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Module Variants}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Pin Mapping}{4}{subsection.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces NRF24L01+ to Raspberry Pi 4B GPIO pin mapping. Uses SPI0 bus.\relax }}{4}{table.caption.2}\protected@file@percent }
+\newlabel{tab:nrf-pins}{{2}{4}{NRF24L01+ to Raspberry Pi 4B GPIO pin mapping. Uses SPI0 bus.\relax }{table.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Wiring Schematic}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces NRF24L01+ wiring to RPi 4B. Bypass capacitors are essential for stable operation.\relax }}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:nrf-wiring}{{1}{4}{NRF24L01+ wiring to RPi 4B. Bypass capacitors are essential for stable operation.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}SPI Configuration}{4}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Updated Single-Gripper Hardware Architecture}{5}{subsection.2.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Updated single gripper hardware architecture with NRF24L01+ radio and USB RGB camera.\relax }}{5}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:hw-arch}{{2}{5}{Updated single gripper hardware architecture with NRF24L01+ radio and USB RGB camera.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Updated Bill of Materials}{5}{subsection.2.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Updated BOM with NRF24L01+ and dual cameras. Adds ${\sim }$\$36 total over WiFi-only system.\relax }}{5}{table.caption.5}\protected@file@percent }
+\newlabel{tab:bom}{{3}{5}{Updated BOM with NRF24L01+ and dual cameras. Adds ${\sim }$\$36 total over WiFi-only system.\relax }{table.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Enhanced ShockBurst Protocol}{5}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}On-Air Packet Format}{6}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces ESB on-air packet format. The Packet Control Field (PCF) is 9 bits packed before the payload.\relax }}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:esb-packet}{{3}{6}{ESB on-air packet format. The Packet Control Field (PCF) is 9 bits packed before the payload.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Packet Control Field (PCF) Breakdown}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces PCF field breakdown. PID increments per new payload to detect retransmitted duplicates.\relax }}{6}{table.caption.7}\protected@file@percent }
+\newlabel{tab:pcf}{{4}{6}{PCF field breakdown. PID increments per new payload to detect retransmitted duplicates.\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Auto-ACK and Retransmission}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}ESB Timing}{6}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces ESB timing for a single transmission at 2\,Mbps with 32-byte payload.\relax }}{6}{table.caption.8}\protected@file@percent }
+\newlabel{tab:esb-timing}{{5}{6}{ESB timing for a single transmission at 2\,Mbps with 32-byte payload.\relax }{table.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Data Rate Selection}{6}{subsection.3.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Data rate comparison. We use 2\,Mbps to minimize radio-on time and latency.\relax }}{7}{table.caption.9}\protected@file@percent }
+\newlabel{tab:data-rates}{{6}{7}{Data rate comparison. We use 2\,Mbps to minimize radio-on time and latency.\relax }{table.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}ACK Payload Feature}{7}{subsection.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Ping-Pong Protocol Design}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Approach 1: Software Ping-Pong}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Software ping-pong: 4 mode switches per round trip. Each switch adds ${\sim }$130\,$\mu $s PLL lock time.\relax }}{7}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:sw-pingpong}{{4}{7}{Software ping-pong: 4 mode switches per round trip. Each switch adds ${\sim }$130\,$\mu $s PLL lock time.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Approach 2: Hardware ACK Payload}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hardware ACK payload: zero explicit mode switches. Node\nobreakspace  {}B stays in PRX mode permanently.\relax }}{8}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:hw-ack}{{5}{8}{Hardware ACK payload: zero explicit mode switches. Node~B stays in PRX mode permanently.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Approach Comparison}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces We use hardware ACK payload for lower latency, accepting one-round-old timestamps.\relax }}{8}{table.caption.12}\protected@file@percent }
+\newlabel{tab:pingpong-compare}{{7}{8}{We use hardware ACK payload for lower latency, accepting one-round-old timestamps.\relax }{table.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Pipe Configuration}{8}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}NRF24L01+ Packet Format}{9}{subsection.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces 32-byte NRF packet format. Extended from 28-byte UDP with seq\_num and reserved bytes.\relax }}{9}{table.caption.13}\protected@file@percent }
+\newlabel{tab:nrf-packet}{{8}{9}{32-byte NRF packet format. Extended from 28-byte UDP with seq\_num and reserved bytes.\relax }{table.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Time Synchronization Algorithm}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}NTP-Style Four-Timestamp Principle}{9}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Mathematical Derivation}{9}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Four-timestamp exchange. $t_1, t_4$ measured on Node\nobreakspace  {}A's clock; $t_2, t_3$ on Node\nobreakspace  {}B's clock.\relax }}{10}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:four-timestamp}{{6}{10}{Four-timestamp exchange. $t_1, t_4$ measured on Node~A's clock; $t_2, t_3$ on Node~B's clock.\relax }{figure.caption.14}{}}
+\newlabel{eq:offset}{{2}{10}{Mathematical Derivation}{equation.5.2}{}}
+\newlabel{eq:rtt}{{3}{10}{Mathematical Derivation}{equation.5.3}{}}
+\newlabel{eq:delay}{{4}{10}{Mathematical Derivation}{equation.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Multi-Round Averaging with Outlier Rejection}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Synchronization Algorithm}{10}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Worked Numerical Example}{10}{subsection.5.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Time Synchronization --- Initiator (Node A)\relax }}{11}{algocf.1}\protected@file@percent }
+\newlabel{alg:time-sync}{{1}{11}{Synchronization Algorithm}{algocf.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Worked example with 5 rounds. Median RTT = 0.80\,ms, threshold = 1.20\,ms. Round\nobreakspace  {}3 rejected.\relax }}{11}{table.caption.16}\protected@file@percent }
+\newlabel{tab:worked-example}{{9}{11}{Worked example with 5 rounds. Median RTT = 0.80\,ms, threshold = 1.20\,ms. Round~3 rejected.\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Dual-Camera Integration}{12}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Camera Overview}{12}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Camera Specifications}{12}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Dual camera specifications per gripper unit.\relax }}{12}{table.caption.17}\protected@file@percent }
+\newlabel{tab:cameras}{{10}{12}{Dual camera specifications per gripper unit.\relax }{table.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Updated Software Architecture}{12}{subsection.6.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Updated 5-thread software architecture. Thread\nobreakspace  {}4 (NRF) provides synchronization trigger; Thread\nobreakspace  {}2 adds color observation.\relax }}{12}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:sw-arch}{{7}{12}{Updated 5-thread software architecture. Thread~4 (NRF) provides synchronization trigger; Thread~2 adds color observation.\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Frame Synchronization Strategy}{12}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}Updated LeRobot Dataset Columns}{13}{subsection.6.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Updated parquet columns with dual cameras and NRF sync diagnostics.\relax }}{13}{table.caption.19}\protected@file@percent }
+\newlabel{tab:parquet-columns}{{11}{13}{Updated parquet columns with dual cameras and NRF sync diagnostics.\relax }{table.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Error Handling and Drift Correction}{13}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Packet Loss Scenarios}{13}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Protocol State Machine}{13}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Retry and Timeout Configuration}{13}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Clock Drift Correction}{13}{subsection.7.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Protocol state machine. ERROR counts consecutive timeouts; 3 failures trigger RESYNC.\relax }}{14}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:state-machine}{{8}{14}{Protocol state machine. ERROR counts consecutive timeouts; 3 failures trigger RESYNC.\relax }{figure.caption.20}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Error handling configuration.\relax }}{14}{table.caption.21}\protected@file@percent }
+\newlabel{tab:retry-config}{{12}{14}{Error handling configuration.\relax }{table.caption.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.5}Packet Loss Recovery}{15}{subsection.7.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Packet Loss Recovery --- Gap Detection\relax }}{15}{algocf.2}\protected@file@percent }
+\newlabel{alg:gap-detection}{{2}{15}{Packet Loss Recovery}{algocf.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Complete Peer Implementation}{15}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Radio Initialization (Shared)}{15}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Node A --- Initiator Main Loop}{15}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Node B --- Responder Main Loop}{15}{subsection.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Packet Encoding}{15}{subsection.8.4}\protected@file@percent }
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Radio Initialization --- Both Peers\relax }}{16}{algocf.3}\protected@file@percent }
+\newlabel{alg:radio-init}{{3}{16}{Radio Initialization (Shared)}{algocf.3}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces Node A --- Initiator (PTX) Main Loop\relax }}{17}{algocf.4}\protected@file@percent }
+\newlabel{alg:node-a}{{4}{17}{Node A --- Initiator Main Loop}{algocf.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Latency breakdown for a single NRF round trip with 32-byte payload and ACK payload.\relax }}{17}{table.caption.26}\protected@file@percent }
+\newlabel{tab:latency}{{13}{17}{Latency breakdown for a single NRF round trip with 32-byte payload and ACK payload.\relax }{table.caption.26}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {5}{\ignorespaces Node B --- Responder (PRX) Main Loop\relax }}{18}{algocf.5}\protected@file@percent }
+\newlabel{alg:node-b}{{5}{18}{Node B --- Responder Main Loop}{algocf.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Performance Analysis}{18}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Latency Breakdown}{18}{subsection.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Synchronization Error Comparison}{18}{subsection.9.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Sync error comparison: WiFi UDP vs NRF24L01+.\relax }}{18}{table.caption.27}\protected@file@percent }
+\newlabel{tab:sync-comparison}{{14}{18}{Sync error comparison: WiFi UDP vs NRF24L01+.\relax }{table.caption.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Step Timing at 30\,Hz}{18}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Power Consumption}{18}{subsection.9.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Single-step timing breakdown at 30\,Hz (33.3\,ms period). NRF duty cycle ${\sim }$2.4\%.\relax }}{19}{table.caption.28}\protected@file@percent }
+\newlabel{tab:step-timing}{{15}{19}{Single-step timing breakdown at 30\,Hz (33.3\,ms period). NRF duty cycle ${\sim }$2.4\%.\relax }{table.caption.28}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Power comparison. NRF24L01+ consumes ${\sim }$3000$\times $ less power than WiFi.\relax }}{19}{table.caption.29}\protected@file@percent }
+\newlabel{tab:power}{{16}{19}{Power comparison. NRF24L01+ consumes ${\sim }$3000$\times $ less power than WiFi.\relax }{table.caption.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}References and Hardware Links}{19}{section.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1}QR Code Quick Links}{19}{subsection.10.1}\protected@file@percent }
+\qr@savematrix{https://www.nordicsemi.com/Products/nRF24-series}{4}{0}{111111101110001000100110001111111100000101011100001010100101000001101110101100100011111111001011101101110100111100000010101001011101101110101001111100101000001011101100000100111011001101101001000001111111101010101010101010101111111000000000111010000011010000000000100111111111001101110000110010111010111001101101100110101000011110101100110100101101100101111011111010010001100001011001000001100111001100101111011111111000111110011110100000011110011010001000101100001001110011100011000010001100100110011001101001100110011110011101101001111001001010011011111110000011110010100010000111010111010101010001100100001100010101011101101011101001110101111101011010011101000111101001010000011000010011000110001010010011010101001010110100100101111101111110100111011110011101101001111010011000011011101100111010101101010110010000111111011000000001100101100100001100010100111111101101111100111011101010100100000101101001000011001100011101101110101011011001101101111110011101110101100110000001110010100011101110100010100010001110100110011100000100000011110000010001111111111111101001101011000000110110000}
+\qr@savematrix{https://nrf24.github.io/RF24/}{3}{3}{1111111010001110000110111111110000010010010001010001000001101110101011010101110010111011011101010110100100100101110110111010011000000000001011101100000101010011010111010000011111111010101010101010111111100000000101101110101000000000010101111101110010101111011011000110100000100010001100110100100010010011010111101111110011001010111000110000110101100100101001001001011000110100000010101001000110011110101010000011110010101100000100000110000000110110000111010110001011001010100100010010100000010011000010001101110010111001111010011111101111100011000111100011101010100000101000011001100001101001101110101111101100000000010110110100110001000111111110100111001100101011110100000101000100011001000101001011101000000010000011111100010111010111101011001111010001101110100010100000011000101011000001010100101010000110101011111110000111100100111011010}
+\qr@savematrix{https://pinout.xyz/}{2}{3}{1111111011010101001111111100000101111100110100000110111010110000101010111011011101011010000101011101101110101011011100101110110000010001100110010000011111111010101010101111111000000001111111100000000001101011011110110010111111100010000100000111000001111100110000010010001011111000101000010001001000100111011001010001111101011000100010110100001100100110001111100011101101001110111010111001011111010010101010100110101011111100000000000100001101000110111111111010100101101011011100000100111110010001100110111010100001101111110011011101000110010000111100101110101101010110001000110000010110100101010110101111111000000111110100011}
+\qr@savematrix{https://www.intelrealsense.com/tracking-camera-t265/}{4}{0}{111111101101101000000110001111111100000101100100011011100001000001101110101110100001111110101011101101110100101100100011101001011101101110101111011101101000001011101100000100111101000101101001000001111111101010101010101010101111111000000000000010000000000000000000100111111000100111000000110010111110110010101001100110001000011100001111101110101111100101111011111110010010001101111000000011100101001101101101111111111010111100011011111010000010010001001010100100011101101110001010011100001101100111111010011000100000010010101101100110111111001000001010111111000100000001011011100111110111010111011110100101011110010101000101101111000001011010111110011001011111111011111100011000011000100101000101011000001110011111001000110100101101101011101110001111011000011101011000001111011111001111000100111010111011010110011001111111001000000001001011100000001100010100111111101101100100110101101010100100000101111110000011011100011110101110101001001101100001111110010101110101011011001010100010101011101110100000110010111100100110011100000100100001110001000011111111111111101110000011011001101110000}
+\qr@savematrix{https://github.com/huggingface/lerobot}{3}{0}{1111111011111010011000111111110000010101010000101001000001101110101000111010001010111011011101001001100110010101110110111010110110001011001011101100000100001101001101010000011111111010101010101010111111100000000000001111001000000000100111111000110011011100101111100100101001111011101011011010110110011001010000100110100110111000011110111100111010011101011110001101000010110000111000001101101111010001111111100100110110010101011110101010100010110100000000100011010110110010101000110001110001000111001010101111101110000101101111111000100001100100001100111110100111100101011001001100110101100010111011001111111100000000010001011001010001100011111110100100111111101011000100000101000001101011000100001011101010100110100111111100110111010111011010010010000001101110100101100101101101101111000001001010110000000110110111111110111101010001101010000}
+\qr@savematrix{https://www.youtube.com/watch?v=vJqyUTTbo6I}{4}{3}{111111101010011011100110001111111100000101100101010101010001000001101110100000111110010110101011101101110100110110000101001001011101101110100011011101001010001011101100000100101100101010110001000001111111101010101010101010101111111000000000111110100011010100000000010000111110011101010011010000011111110000110010111110001000011100001101110010100001000110110010110010110011001101101111001001111111000100111010010001001100011000001111110000010000100100011011100111100111100110010110001110011011110001000011110101010101000110101101110101101001110101010010110111001110011010000100110110011111001111100101101011101101010101000101101101100001110001100001001010011111101000100001111010000010010011011100011010111010110100011010011100101001101011110001100110110100110101000001100000101011001111011111111110111011111101111000111111010000000001100111100011011100010101111111101100000110100001101010100100000100010100001111011100011111101110100110100111001010111111011101110100111101110010001010110101101110100111100011010100100110011100000101110111100111010110111100111111100101011000110011101100010}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces QR codes for key references.\relax }}{19}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:qrcodes}{{9}{19}{QR codes for key references.\relax }{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Reference URLs}{19}{subsection.10.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Complete reference URL list.\relax }}{20}{table.caption.31}\protected@file@percent }
+\newlabel{tab:urls}{{17}{20}{Complete reference URL list.\relax }{table.caption.31}{}}
+\newlabel{LastPage}{{}{20}{}{page.20}{}}
+\xdef\lastpage@lastpage{20}
+\xdef\lastpage@lastpageHy{20}
+\gdef \@abspage@last{20}

@@ -1,0 +1,52 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}NRF24L01+ Hardware Overview}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Module Variants}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Pin Mapping}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Wiring Schematic}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}SPI Configuration}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Updated Single-Gripper Hardware Architecture}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Updated Bill of Materials}{5}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Enhanced ShockBurst Protocol}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}On-Air Packet Format}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Packet Control Field (PCF) Breakdown}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Auto-ACK and Retransmission}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}ESB Timing}{6}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Data Rate Selection}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}ACK Payload Feature}{7}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Ping-Pong Protocol Design}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Approach 1: Software Ping-Pong}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Approach 2: Hardware ACK Payload}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Approach Comparison}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Pipe Configuration}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}NRF24L01+ Packet Format}{9}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Time Synchronization Algorithm}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}NTP-Style Four-Timestamp Principle}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Mathematical Derivation}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Multi-Round Averaging with Outlier Rejection}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Synchronization Algorithm}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Worked Numerical Example}{10}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Dual-Camera Integration}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Camera Overview}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Camera Specifications}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Updated Software Architecture}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Frame Synchronization Strategy}{12}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Updated LeRobot Dataset Columns}{13}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Error Handling and Drift Correction}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Packet Loss Scenarios}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Protocol State Machine}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Retry and Timeout Configuration}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Clock Drift Correction}{13}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Packet Loss Recovery}{15}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Complete Peer Implementation}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Radio Initialization (Shared)}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Node A --- Initiator Main Loop}{15}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Node B --- Responder Main Loop}{15}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Packet Encoding}{15}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Performance Analysis}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Latency Breakdown}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Synchronization Error Comparison}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Step Timing at 30\,Hz}{18}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Power Consumption}{18}{subsection.9.4}%
+\contentsline {section}{\numberline {10}References and Hardware Links}{19}{section.10}%
+\contentsline {subsection}{\numberline {10.1}QR Code Quick Links}{19}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Reference URLs}{19}{subsection.10.2}%
